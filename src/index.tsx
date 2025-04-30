@@ -1,20 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { ThemeProvider } from 'styled-components';
 import './index.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+   <StrictMode>
+         <App />
+   </StrictMode>,
 )
 
 
 const sum = (a,b) => {
-  return a + b ;
+   return a + b ;
 }
 
 module.exports = {
-  sum,
+   sum,
 }
-
