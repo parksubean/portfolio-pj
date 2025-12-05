@@ -1,0 +1,171 @@
+export interface noticeType {
+   id: number;
+   title: string;
+   writer: string;
+   date: string;
+   pin: number;
+   hide: number;
+}
+
+export const dummyNotice: noticeType[] = [
+   {
+      id: 1,
+      title: "서비스 점검 안내",
+      writer: "admin01",
+      date: "2025-01-03",
+      pin: 1, //1= 고정 , 2=비고정
+      hide: 3, // 3= 공개 , 4=숨김
+   },
+   {
+      id: 2,
+      title: "신규 기능 업데이트",
+      writer: "manager01",
+      date: "2025-01-10",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 3,
+      title: "개인정보 처리방침 개정",
+      writer: "admin01",
+      date: "2025-01-12",
+      pin: 1,
+      hide: 4,
+   },
+   {
+      id: 4,
+      title: "정기 점검 일정 변경",
+      writer: "manager01",
+      date: "2025-01-15",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 5,
+      title: "시스템 장애 복구 안내",
+      writer: "admin01",
+      date: "2025-01-18",
+      pin: 1,
+      hide: 3,
+   },
+   {
+      id: 6,
+      title: "신규 가입 이벤트 공지",
+      writer: "marketing01",
+      date: "2025-01-20",
+      pin: 2,
+      hide: 4,
+   },
+   {
+      id: 7,
+      title: "문의 증가로 인한 응답 지연",
+      writer: "cs01",
+      date: "2025-01-22",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 8,
+      title: "알림 시스템 개선",
+      writer: "dev01",
+      date: "2025-01-24",
+      pin: 1,
+      hide: 3,
+   },
+   {
+      id: 9,
+      title: "데이터 백업 안내",
+      writer: "admin01",
+      date: "2025-01-25",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 10,
+      title: "1월 업데이트 내역",
+      writer: "manager01",
+      date: "2025-01-26",
+      pin: 1,
+      hide: 4,
+   },
+   {
+      id: 11,
+      title: "이벤트 마감 안내",
+      writer: "marketing01",
+      date: "2025-01-27",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 12,
+      title: "공지사항 UI 변경",
+      writer: "dev01",
+      date: "2025-01-28",
+      pin: 1,
+      hide: 3,
+   },
+   {
+      id: 13,
+      title: "휴면 계정 정책 변경",
+      writer: "admin01",
+      date: "2025-01-29",
+      pin: 2,
+      hide: 4,
+   },
+   {
+      id: 14,
+      title: "2월 정기 점검 일정",
+      writer: "manager01",
+      date: "2025-01-30",
+      pin: 1,
+      hide: 3,
+   },
+   {
+      id: 15,
+      title: "보안 업데이트 적용",
+      writer: "dev01",
+      date: "2025-02-02",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 16,
+      title: "도움말 페이지 개선",
+      writer: "manager01",
+      date: "2025-02-04",
+      pin: 1,
+      hide: 4,
+   },
+   {
+      id: 17,
+      title: "고객센터 운영 시간 변경",
+      writer: "cs01",
+      date: "2025-02-05",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 18,
+      title: "신규 테마 추가 안내",
+      writer: "design01",
+      date: "2025-02-07",
+      pin: 1,
+      hide: 3,
+   },
+   {
+      id: 19,
+      title: "로그인 기능 개선",
+      writer: "dev01",
+      date: "2025-02-08",
+      pin: 2,
+      hide: 3,
+   },
+   {
+      id: 20,
+      title: "공지사항 테스트 데이터",
+      writer: "admin01",
+      date: "2025-02-09",
+      pin: 2,
+      hide: 4,
+   },
+];
