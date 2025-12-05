@@ -952,7 +952,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,_j=j.div`
    &::after {
       content: "";
-      background-image: url(../../public/images/ai.png);
+      background-image: url(./images/ai.png);
       background-repeat: no-repeat;
       display: block;
       width: 35px;

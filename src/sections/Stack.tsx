@@ -105,7 +105,7 @@ const CttTitWrap = styled.div`
 const IconBox = styled.div`
    &::after {
       content: "";
-      background-image: url(../../public/images/ai.png);
+      background-image: url(./images/ai.png);
       background-repeat: no-repeat;
       display: block;
       width: 35px;
