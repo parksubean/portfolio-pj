@@ -220,7 +220,7 @@ function AdminLayout(): JSX.Element {
          <AllWrap>
             <LeftManuWrap>
                <LogoWrap>
-                  <img src="/images/c_Logo.png" alt="로고" />
+                  <img src="./images/c_Logo.png" alt="로고" />
                </LogoWrap>
                <MenuList>
                   <li>
@@ -286,7 +286,7 @@ function AdminLayout(): JSX.Element {
                      <ProfileWrap>
                         <ProfileImg>
                            <img
-                              src="/images/profile.png"
+                              src="./images/profile.png"
                               alt="프로필기본이미지"
                            />
                         </ProfileImg>
