@@ -6,7 +6,6 @@ import Modal from "../components/Modal";
 import { Background } from "../components";
 import { Table } from "../components/Table";
 
-
 // const CttTable = styled.table`
 //    th {
 //       border: 1px solid #ffb473;
@@ -292,7 +291,7 @@ function Contents(): JSX.Element {
             )}
             colgroup={
                <>
-                 <col style={{ width: "50px" }} />
+                  <col style={{ width: "50px" }} />
                   <col style={{ width: "100px" }} />
                   <col style={{ width: "250px" }} />
                   <col style={{ width: "150px" }} />
@@ -303,7 +302,7 @@ function Contents(): JSX.Element {
             }
             header={
                <>
-                 <th>상품코드</th>
+                  <th>상품코드</th>
                   <th>상품이미지</th>
                   <th>상품명</th>
                   <th>상품가격</th>
@@ -313,46 +312,6 @@ function Contents(): JSX.Element {
                </>
             }
          ></Table>
-
-         {/* <TableWrap>
-            <CttTable>
-               
-               {veiwUsers.map((item, index) => (
-                  <tr
-                     key={index}
-                     style={{
-                        backgroundColor:
-                           item.status === 2 ? "#ececec8f" : undefined,
-                     }}
-                  >
-                     
-                  </tr>
-               ))}
-            </CttTable>
-         </TableWrap> */}
-         <NavWrap>
-            <NavBtn onClick={() => setActivePage((p) => Math.max(p - 1, 1))}>
-               {"<"}
-            </NavBtn>
-            {Array.from({ length: totalPage }, (_, i) => i + 1).map((num) => (
-               <NavBtn
-                  key={num}
-                  onClick={() => setActivePage(num)}
-                  style={{
-                     fontWeight: activePage === num ? "800" : "normal",
-                     color: activePage === num ? "#ff5160" : "#4d4d4d",
-                  }}
-               >
-                  {num}
-               </NavBtn>
-            ))}
-
-            <NavBtn
-               onClick={() => setActivePage((p) => Math.min(p + 1, totalPage))}
-            >
-               {">"}
-            </NavBtn>
-         </NavWrap>
          {/* 모달창 */}
          {modalOpen && (
             <Modal
