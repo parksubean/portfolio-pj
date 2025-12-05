@@ -21,7 +21,7 @@ function App() {
       return () => window.removeEventListener("beforeunload", autoLogout);
    }, []);
    return (
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter basename="/portfolio-pj">
          <Routes>
             <Route path="/" element={<PortfolioPack />} />
             <Route path="/login" element={<Login />} />
