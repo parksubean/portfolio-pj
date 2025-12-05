@@ -302,7 +302,7 @@ function SideProhect(): JSX.Element {
                                  target="_blank"
                                  onDragStart={(e) => e.preventDefault()}
                               >
-                                 <GoBtn>View All→</GoBtn>
+                                 <GoBtn>View →</GoBtn>
                               </Link>
                            </CttCase>
                         ))}
