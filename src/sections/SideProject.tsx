@@ -297,12 +297,16 @@ function SideProhect(): JSX.Element {
                            <CttCase key={index} falstItem={index === 0}>
                               <CttTit>{item.tit}</CttTit>
                               <CttImg src={item.img} draggable={false} />
-                              <Link
-                                 to={item.go}
-                                 onDragStart={(e) => e.preventDefault()}
+                              <GoBtn
+                                 onClick={() => {
+                                    window.open(
+                                       `/portfolio-pj${item.go}`,
+                                       "_blank"
+                                    );
+                                 }}
                               >
-                                 <GoBtn>View </GoBtn>
-                              </Link>
+                                 View All→
+                              </GoBtn>
                            </CttCase>
                         ))}
                         <BlankBox />
