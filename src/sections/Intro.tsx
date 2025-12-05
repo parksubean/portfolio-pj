@@ -272,7 +272,7 @@ function Intro(): JSX.Element {
       node?.addEventListener("wheel", wheelEvent, { passive: false });
 
       return () => {
-         node?.removeEventListener("wheel",wheelEvent);
+         node?.removeEventListener("wheel", wheelEvent);
       };
    }, []);
 
@@ -296,11 +296,13 @@ function Intro(): JSX.Element {
                         Front End Engineer
                      </NameTxt>
                      <NameTxt size={20} txtWeight>
-                        작은 픽셀 
+                        작은 픽셀 하나까지도
                         <br />
                         신중하게 고민하며 웹을 만듭니다.
                      </NameTxt>
-                     <EmailTxt href="mailto:suqls9612@gmail.com">suqls9612@gmail.com</EmailTxt>
+                     <EmailTxt href="mailto:suqls9612@gmail.com">
+                        suqls9612@gmail.com
+                     </EmailTxt>
                   </LeftCtt>
                   <RightCtt ref={rightCtt}>
                      {/* data-lenis-prevent */}
