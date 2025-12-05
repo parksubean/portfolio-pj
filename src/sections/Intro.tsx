@@ -296,7 +296,7 @@ function Intro(): JSX.Element {
                         Front End Engineer
                      </NameTxt>
                      <NameTxt size={20} txtWeight>
-                        작은 픽셀 하나까지도
+                        작은 픽셀 
                         <br />
                         신중하게 고민하며 웹을 만듭니다.
                      </NameTxt>
