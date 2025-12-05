@@ -367,7 +367,7 @@ function Notice(): JSX.Element {
                   <tr key={item.id}>
                      <td>{item.id}</td>
                      <td>
-                        <a href="">{item.title}</a>
+                        <a href="#">{item.title}</a>
                      </td>
                      <td>{item.writer}</td>
                      <td>{item.date}</td>
