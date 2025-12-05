@@ -212,7 +212,7 @@ const CttTxtGp = [
    {
       tit: "프로그램 관리자 홈페이지",
       img: "./images/port_01.png",
-      go: "/Admin",
+      go: "/portfolio-pj/Admin",
    },
 ];
 
