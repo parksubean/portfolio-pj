@@ -211,7 +211,7 @@ const GoBtn = styled.button`
 const CttTxtGp = [
    {
       tit: "프로그램 관리자 홈페이지",
-      img: "../../public/images/port_01.png",
+      img: "./images/port_01.png",
       go: "/Admin",
    },
 ];
@@ -252,7 +252,7 @@ function SideProhect(): JSX.Element {
                   <MainTit>Side Project</MainTit>
                </TitTxtWrap>
                <CloudWrap>
-                  <img src="../../public/images/cloud.png" alt="구름 이미지" />
+                  <img src="./images/cloud.png" alt="구름 이미지" />
                   <PathWrap>
                      <svg
                         viewBox="0 0 500 500"
@@ -323,7 +323,7 @@ function SideProhect(): JSX.Element {
                <BottomAllWrap>
                   <EmailTxt>
                      <img
-                        src="../../public/images/beanFullIcon.png"
+                        src="./images/beanFullIcon.png"
                         alt="콩 아이콘"
                         style={{ marginRight: "10px" }}
                      />

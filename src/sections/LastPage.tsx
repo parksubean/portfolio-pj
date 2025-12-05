@@ -41,16 +41,16 @@ const ItemMoveCss = css<{ top: number; left: number; active?: boolean }>`
 `;
 
 const BubbleItemList: BubbleType[] = [
-   { src: "/images/react.png", scale: 1.3, top: 110, left: 1070 },
-   { src: "/images/html0.png", scale: 0.8, top: 341, left: 634 },
-   { src: "/images/html0.png", scale: 1.3, top: 575, left: 1300 },
-   { src: "/images/php0.png", scale: 1.1, top: 142, left: 163 },
-   { src: "/images/php0.png", scale: 1.1, top: 533, left: 1661 },
-   { src: "/images/react.png", scale: 1.3, top: 312, left: 1372 },
-   { src: "/images/css0.png", scale: 0.9, top: 115, left: 632 },
-   { src: "/images/sql0.png", scale: 1.1, top: 242, left: 163 },
-   { src: "/images/jq.png", scale: 1.3, top: 86, left: 1586 },
-   { src: "/images/jq.png", scale: 1.3, top: 552, left: 136 },
+   { src: "./images/react.png", scale: 1.3, top: 110, left: 1070 },
+   { src: "./images/html0.png", scale: 0.8, top: 341, left: 634 },
+   { src: "./images/html0.png", scale: 1.3, top: 575, left: 1300 },
+   { src: "./images/php0.png", scale: 1.1, top: 142, left: 163 },
+   { src: "./images/php0.png", scale: 1.1, top: 533, left: 1661 },
+   { src: "./images/react.png", scale: 1.3, top: 312, left: 1372 },
+   { src: "./images/css0.png", scale: 0.9, top: 115, left: 632 },
+   { src: "./images/sql0.png", scale: 1.1, top: 242, left: 163 },
+   { src: "./images/jq.png", scale: 1.3, top: 86, left: 1586 },
+   { src: "./images/jq.png", scale: 1.3, top: 552, left: 136 },
 ];
 
 const BubbleItem = styled(ImgBubble)<BubbleType>`
