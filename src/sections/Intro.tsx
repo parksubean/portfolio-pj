@@ -281,7 +281,7 @@ function Intro(): JSX.Element {
          <AllWrap>
             <Section_wrap>
                <Section_top>
-                  <LogoImg src="/images/logo.png" alt="Logo" />
+                  <LogoImg src="./images/logo.png" alt="Logo" />
                   <Slogan>" Pixels don't lie "</Slogan>
                   <TopBtnWrap>
                      <Btn_item_01 />
