@@ -212,7 +212,7 @@ const CttTxtGp = [
    {
       tit: "프로그램 관리자 홈페이지",
       img: "./images/port_01.png",
-      go: "/portfolio-pj/Admin",
+      go: "/Admin",
    },
 ];
 
@@ -297,16 +297,12 @@ function SideProhect(): JSX.Element {
                            <CttCase key={index} falstItem={index === 0}>
                               <CttTit>{item.tit}</CttTit>
                               <CttImg src={item.img} draggable={false} />
-                              <GoBtn
-                                 onClick={() => {
-                                    window.open(
-                                       `/portfolio-pj${item.go}`,
-                                       "_blank"
-                                    );
-                                 }}
+                              <Link
+                                 to={item.go}
+                                 onDragStart={(e) => e.preventDefault()}
                               >
-                                 View All→
-                              </GoBtn>
+                                 <GoBtn>View </GoBtn>
+                              </Link>
                            </CttCase>
                         ))}
                         <BlankBox />
