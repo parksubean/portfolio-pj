@@ -90,7 +90,7 @@ const EmailTxt = styled.a`
    font-size: 14px;
    &::before {
       content: "";
-      background-image: url("/images/beanFullIcon.png");
+      background-image: url("./images/beanFullIcon.png");
       background-repeat: no-repeat;
       width: 34px;
       height: 24px;
